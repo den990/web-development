@@ -1,0 +1,104 @@
+body
+{
+    background-color: #FFF;
+}
+.globalText
+{
+    width: 745px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 122.35%;   
+}
+.head
+{
+    width: 203px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.8354px;
+    line-height: 122.33%;
+    letter-spacing: -0.045em;
+    color: #000;
+}
+.colorPink
+{
+    color: #EE58B6;
+}
+.proposal
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.whiteText
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;  
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: auto;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    width: 247px;
+    height: 55px;
+    background: #05090C;
+    border-radius: 4.59px;
+}
+.followText
+{
+    width: 545px;
+    height: 62px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+    
+    
+    color: rgba(0, 0, 0, 0.7);
+}
+.box1
+{
+    display: flex;
+    flex-direction: row;
+
+    width: 332px;
+    height: 55px;
+
+    background: #05090C;
+    border-radius: 4.59px;
+}
+.textInTheBox1
+{
+    position: static;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 167px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
