@@ -1,104 +1,151 @@
-body
-{
-    background-color: #FFF;
-}
-.globalText
-{
-    width: 745px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100px;
-    line-height: 122.35%;   
-}
 .head
 {
-    width: 203px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30.8354px;
-    line-height: 122.33%;
-    letter-spacing: -0.045em;
-    color: #000;
+    font: 600 100px/122.35% 'Montserrat', sans-serif;
 }
-.colorPink
+
+.text
 {
+    font-family: 'Roboto';
+}
+
+.color-pink
+{
+
     color: #EE58B6;
 }
-.proposal
+
+.logo
 {
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    
+    font: 700 30.8354px/122.33% 'Montserrat', sans-serif;
 }
-.whiteText
+
+.point-not-decoration
 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;  
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: auto;
+    list-style-type: none;
 }
-.box
+
+.point-link-not-decoration
 {
-    display: flex;
-    flex-direction: row;
+    text-decoration: none;
+    color: #000;
+}
+
+.button
+{
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 4.59px;
+    background-color: #05090C;
+    color: #fff;
+    font: 600 16px 'Montserrat', sans-serif
+}
+
+.button__short
+{
+    padding: 19px 40px;
     width: 247px;
-    height: 55px;
-    background: #05090C;
-    border-radius: 4.59px;
 }
-.followText
-{
-    width: 545px;
-    height: 62px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 120%;
-    /* or 31px */
-    
-    
-    color: rgba(0, 0, 0, 0.7);
-}
-.box1
-{
-    display: flex;
-    flex-direction: row;
 
+.button__long
+{
+    padding: 19px 82.5px;
     width: 332px;
-    height: 55px;
-
-    background: #05090C;
-    border-radius: 4.59px;
 }
-.textInTheBox1
+
+.main-image
 {
-    position: static;
-    height: 17px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    width: 167px;
-    margin: auto;
-    color: #FFFFFF;
+    width: 747.49px;
+    height: 636.87px
 }
 
+.for-whom
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.for-whom__block1
+{
+    width: 285px;
+    height: 145px;
+}
+
+.for-whom__block2{
+    width: 337px;
+    height: 132px;
+}
+
+.for-whom__block3{
+    width: 293px;
+    height: 132px;
+}
+
+.for-whom__description
+{
+    font: 400 120% 'Roboto', sans-serif;
+}
+
+.motivation__block1_num1
+{
+    width: 574px;
+    height: 134.97px;
+}
+
+.motivation__block1_num2
+{
+    width: 574px;
+    height: 131.1px;
+}
+
+.motivation__heading
+{
+    font: 500 48px/126.06% 'Montserrat', sans-serif;
+}
+
+.description__heading{
+    font: 500 48px/59px 'Montserrat', sans-serif;
+}
+
+.description__block
+{
+    width: 358px;
+    height: 190px;
+    background-color: #000;
+    color: #fff;
+}
+
+.description__block1
+{
+    padding: 32.36px 48.98px 37.27px 39.25px;
+}
+
+.description__block2
+{
+    padding: 32.36px 48.5px 37.27px 39.74px;
+}
+
+.description__block3
+{
+    padding: 32.36px 48.02px 37.27px 39.22px;
+}
+
+.description__block4
+{
+    padding: 33.22px 48.98px 37.27px 37.12px;
+}
+
+.description__block5
+{
+    padding: 33.22px 48.98px 37.27px 37.12px;
+}
+
+.description__block6
+{
+    padding: 33.22px 48.98px 37.27px 37.12px;
+}
+
+.footer
+{
+    background-color: #000;
+    color: #fff;
+}
